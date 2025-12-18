@@ -1,0 +1,45 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
+section {
+    background-color: #707173;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section p {
+    margin: 0;
+    margin-bottom: 8px;        
+}
+h2{
+    height: 30px;
+    margin-bottom: 8px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color:  #cbcbcb;
+}
+.card img {
+    height: 140px;
+    object-fit: cover;
+}
+.card-body {
+    text-align: center;
+    padding: 10px;
+}
+.card-body b {
+    font-size: 14px;   
+}
+.card-body p {
+    font-size: 12px;
+    color: rgb(0, 0, 0);  
+}
